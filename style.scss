@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+$Pink: hsl(322, 100%, 66%);
+$Light-Pink: hsl(321, 100%, 78%);
+$Light-Red: hsl(0, 100%, 63%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Very-Pale-Blue: hsl(207, 100%, 98%);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.Btn{
+  text-decoration: none;
+  text-align: center;
+}
+
+header{
+  margin: 3rem auto;
+}
+
+.container{
+  width: 1000px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .Top-Btn{
+    color: $Pink;
+    border: 1px solid $Pink;
+    border-radius: 20px;
+    padding: 7px 30px;
+    box-shadow: 0 0 5px rgba($color: #000000, $alpha: .3);
+  }
+}
+
+.HeroContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .HeadTitle{
+    text-align: center;
+    margin-top: 6rem;
+    font-family: 'Poppins', sans-serif;
+    color: $Very-Dark-Cyan;
+  }
+  .HeadParagraph{
+    text-align: center;
+    padding: 1.5rem 8rem;
+    margin: 0 7rem;
+    color: $Very-Dark-Cyan;
+  }
+  .Btn-Primary{
+    color: $Very-Pale-Blue;
+    background: $Pink;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    box-shadow: 2px 5px 10px rgba($color: #000000, $alpha: .2);
+  }
+}
+
+.HeroImage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img{
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+}
+
+.communities{
+  display: flex;
+  div{
+    flex: 1;
+    margin-right: 6rem;
+  }
+  .community, .messages{
+    text-align: center;
+    img{
+      align-items: flex-start;
+      width: 28px;
+      margin-right: 8rem;
+    }
+    h1{
+      font-size: 58px;
+      font-weight: 700;
+      color: $Very-Dark-Cyan;
+    }
+    p{      
+      color: rgb(128, 128, 128);
+    }
+  }
+}

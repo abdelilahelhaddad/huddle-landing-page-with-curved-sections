@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.Btn {
+  text-decoration: none;
+  text-align: center;
+}
+
+header {
+  margin: 3rem auto;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .Top-Btn {
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+  border-radius: 20px;
+  padding: 7px 30px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.HeroContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.HeroContent .HeadTitle {
+  text-align: center;
+  margin-top: 6rem;
+  font-family: 'Poppins', sans-serif;
+  color: #00252e;
+}
+
+.HeroContent .HeadParagraph {
+  text-align: center;
+  padding: 1.5rem 8rem;
+  margin: 0 7rem;
+  color: #00252e;
+}
+
+.HeroContent .Btn-Primary {
+  color: #f5faff;
+  background: #ff52bf;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.HeroImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.HeroImage img {
+  width: 70%;
+  margin-bottom: 3rem;
+}
+
+.communities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.communities div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 6rem;
+}
+
+.communities .community, .communities .messages {
+  text-align: center;
+}
+
+.communities .community img, .communities .messages img {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 28px;
+  margin-right: 8rem;
+}
+
+.communities .community h1, .communities .messages h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #00252e;
+}
+
+.communities .community p, .communities .messages p {
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
