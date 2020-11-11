@@ -28,7 +28,7 @@ header{
 }
 
 .container{
-  width: 1000px;
+  width: 1200px;
   max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -42,6 +42,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 5rem;
   .Top-Btn{
     color: $Pink;
     border: 1px solid $Pink;
@@ -59,11 +60,12 @@ header{
     text-align: center;
     margin-top: 6rem;
     font-family: 'Poppins', sans-serif;
+    font-size: 38px;
     color: $Very-Dark-Cyan;
   }
   .HeadParagraph{
     text-align: center;
-    padding: 1.5rem 8rem;
+    padding: 1.5rem 14rem;
     margin: 0 7rem;
     color: $Very-Dark-Cyan;
   }
@@ -74,7 +76,7 @@ header{
     padding: 15px 50px;
     border-radius: 50px;
     font-weight: 600;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     box-shadow: 2px 5px 10px rgba($color: #000000, $alpha: .2);
   }
 }
@@ -91,6 +93,7 @@ header{
 
 .communities{
   display: flex;
+  margin-bottom: 5rem;
   div{
     flex: 1;
     margin-right: 6rem;
@@ -109,6 +112,238 @@ header{
     }
     p{      
       color: rgb(128, 128, 128);
+    }
+  }
+}
+
+// Grow Together Section
+
+.svg{
+  &-top{
+    margin-bottom: -1rem;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.Grow-Together{
+  background-color: #F6FBFF;
+  height: 400px;
+}
+
+.grow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  div{
+    flex: 1;
+  }
+  .GrowContent{
+    text-align: left;
+    h1{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: $Very-Dark-Cyan;
+      margin-bottom: 1rem;
+      font-size: 30px;
+    }
+    p{
+      font-size: 14px;
+      padding-right: 8rem;
+      color: $Very-Dark-Cyan;
+    }
+  }
+  .GrowImage{
+    // padding-left: 2rem;
+    img{
+      width: 70%;
+    }
+  }
+}
+
+// Flowing Conversations Section
+
+
+.flow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 0;
+  div{
+    flex: 1;
+  }
+  .FlowContent{
+    text-align: left;
+    margin-left: 6rem;
+    h1{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: $Very-Dark-Cyan;
+      margin-bottom: 1rem;
+      font-size: 30px;
+    }
+    p{
+      font-size: 14px;
+      padding-right: 4rem;
+      color: $Very-Dark-Cyan;
+    }
+  }
+  .FlowImage{
+    padding-right: 2rem;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+// Your Users Section
+
+.svg{
+  &-top{
+    margin-bottom: -1rem;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.Your-Users{
+  background-color: #F6FBFF;
+  height: 400px;
+}
+
+.users{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  div{
+    flex: 1;
+  }
+  .UsersContent{
+    text-align: left;
+    h1{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: $Very-Dark-Cyan;
+      margin-bottom: 1rem;
+      font-size: 30px;
+    }
+    p{
+      font-size: 14px;
+      color: $Very-Dark-Cyan;
+      padding-right: 5rem;
+    }
+  }
+  .UsersImage{
+    padding-left: 2rem;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+// Bottom Call To Action
+
+.Bottom-CTA{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  .HeadTitle{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: $Very-Dark-Cyan;
+  }
+  .Btn-Primary{
+    color: $Very-Pale-Blue;
+    background: $Pink;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    box-shadow: 2px 5px 10px rgba($color: #000000, $alpha: .2);
+  }
+}
+
+// Footer
+
+.svg{
+  &-footer{
+    margin-bottom: -.5rem;
+  }
+  img{
+    width: 100%;
+  }
+}
+.Contact-NewsLetter{
+  background-color: $Very-Dark-Cyan;
+  padding-top: 6rem;
+  color: #ffffff;
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    .contact{
+      margin-right: 14rem;
+      .logo{
+        margin-bottom: 1.5rem;
+      }
+      p{
+        width: 330px;
+        margin-bottom: 1.8rem;
+      }
+      .phone, .email{
+        display: flex;
+        justify-content: center;        
+        img{
+          width: 20px;
+          height: 17px;
+          margin-right: 1rem;
+        }
+      }
+      .social{
+        margin-top: 2.5rem;
+        margin-bottom: 5rem;
+        a{
+          color: #fff;
+          margin-right: 1rem;
+        }
+      }
+    }
+    .NewsLetter{
+      h2{
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+      }
+      p{
+        width: 370px;
+        margin-bottom: 1.8rem;
+      }
+      .form{
+        display: flex;
+        input{
+          display: inline;
+          padding: 15px 70px;
+          border-radius: 5px;
+          border: none;
+          margin-right: 2rem;
+        }
+        button{
+            color: $Very-Pale-Blue;
+            background: $Pink;
+            border: none;
+            padding: 15px 35px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+      }
     }
   }
 }

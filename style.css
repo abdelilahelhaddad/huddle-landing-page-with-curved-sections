@@ -22,7 +22,7 @@ header {
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -45,6 +45,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .navbar .Top-Btn {
@@ -73,12 +74,13 @@ header {
   text-align: center;
   margin-top: 6rem;
   font-family: 'Poppins', sans-serif;
+  font-size: 38px;
   color: #00252e;
 }
 
 .HeroContent .HeadParagraph {
   text-align: center;
-  padding: 1.5rem 8rem;
+  padding: 1.5rem 14rem;
   margin: 0 7rem;
   color: #00252e;
 }
@@ -90,7 +92,7 @@ header {
   padding: 15px 50px;
   border-radius: 50px;
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -117,6 +119,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 5rem;
 }
 
 .communities div {
@@ -146,5 +149,296 @@ header {
 
 .communities .community p, .communities .messages p {
   color: gray;
+}
+
+.svg-top {
+  margin-bottom: -1rem;
+}
+
+.svg img {
+  width: 100%;
+}
+
+.Grow-Together {
+  background-color: #F6FBFF;
+  height: 400px;
+}
+
+.grow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+.grow div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.grow .GrowContent {
+  text-align: left;
+}
+
+.grow .GrowContent h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.grow .GrowContent p {
+  font-size: 14px;
+  padding-right: 8rem;
+  color: #00252e;
+}
+
+.grow .GrowImage img {
+  width: 70%;
+}
+
+.flow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 7rem 0;
+}
+
+.flow div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flow .FlowContent {
+  text-align: left;
+  margin-left: 6rem;
+}
+
+.flow .FlowContent h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.flow .FlowContent p {
+  font-size: 14px;
+  padding-right: 4rem;
+  color: #00252e;
+}
+
+.flow .FlowImage {
+  padding-right: 2rem;
+}
+
+.flow .FlowImage img {
+  width: 100%;
+}
+
+.svg-top {
+  margin-bottom: -1rem;
+}
+
+.svg img {
+  width: 100%;
+}
+
+.Your-Users {
+  background-color: #F6FBFF;
+  height: 400px;
+}
+
+.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+}
+
+.users div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.users .UsersContent {
+  text-align: left;
+}
+
+.users .UsersContent h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.users .UsersContent p {
+  font-size: 14px;
+  color: #00252e;
+  padding-right: 5rem;
+}
+
+.users .UsersImage {
+  padding-left: 2rem;
+}
+
+.users .UsersImage img {
+  width: 100%;
+}
+
+.Bottom-CTA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.Bottom-CTA .HeadTitle {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #00252e;
+}
+
+.Bottom-CTA .Btn-Primary {
+  color: #f5faff;
+  background: #ff52bf;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.svg-footer {
+  margin-bottom: -.5rem;
+}
+
+.svg img {
+  width: 100%;
+}
+
+.Contact-NewsLetter {
+  background-color: #00252e;
+  padding-top: 6rem;
+  color: #ffffff;
+}
+
+.Contact-NewsLetter .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Contact-NewsLetter .container .contact {
+  margin-right: 14rem;
+}
+
+.Contact-NewsLetter .container .contact .logo {
+  margin-bottom: 1.5rem;
+}
+
+.Contact-NewsLetter .container .contact p {
+  width: 330px;
+  margin-bottom: 1.8rem;
+}
+
+.Contact-NewsLetter .container .contact .phone, .Contact-NewsLetter .container .contact .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Contact-NewsLetter .container .contact .phone img, .Contact-NewsLetter .container .contact .email img {
+  width: 20px;
+  height: 17px;
+  margin-right: 1rem;
+}
+
+.Contact-NewsLetter .container .contact .social {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.Contact-NewsLetter .container .contact .social a {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.Contact-NewsLetter .container .NewsLetter h2 {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.Contact-NewsLetter .container .NewsLetter p {
+  width: 370px;
+  margin-bottom: 1.8rem;
+}
+
+.Contact-NewsLetter .container .NewsLetter .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Contact-NewsLetter .container .NewsLetter .form input {
+  display: inline;
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 2rem;
+}
+
+.Contact-NewsLetter .container .NewsLetter .form button {
+  color: #f5faff;
+  background: #ff52bf;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
