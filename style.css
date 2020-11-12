@@ -53,8 +53,15 @@ header {
   border: 1px solid #ff52bf;
   border-radius: 20px;
   padding: 7px 30px;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .Top-Btn:hover {
+  color: #ff8fd8;
+  border: 1px solid #ff8fd8;
+  -webkit-box-shadow: 0 0 10px rgba(255, 143, 216, 0.4);
+          box-shadow: 0 0 10px rgba(255, 143, 216, 0.4);
 }
 
 .HeroContent {
@@ -95,6 +102,10 @@ header {
   margin-bottom: 5rem;
   -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.HeroContent .Btn-Primary:hover {
+  background: #ff8fd8;
 }
 
 .HeroImage {
@@ -344,6 +355,10 @@ header {
           box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.Bottom-CTA .Btn-Primary:hover {
+  background: #ff8fd8;
+}
+
 .svg-footer {
   margin-bottom: -.5rem;
 }
@@ -381,7 +396,7 @@ header {
 
 .Contact-NewsLetter .container .contact p {
   width: 330px;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .Contact-NewsLetter .container .contact .phone, .Contact-NewsLetter .container .contact .email {
@@ -419,26 +434,42 @@ header {
   margin-bottom: 1.8rem;
 }
 
-.Contact-NewsLetter .container .NewsLetter .form {
+.Contact-NewsLetter .container .NewsLetter #form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.Contact-NewsLetter .container .NewsLetter .form input {
+.Contact-NewsLetter .container .NewsLetter #form input {
   display: inline;
-  padding: 15px 70px;
+  width: 300px;
+  padding: 15px;
   border-radius: 5px;
   border: none;
   margin-right: 2rem;
 }
 
-.Contact-NewsLetter .container .NewsLetter .form button {
+.Contact-NewsLetter .container .NewsLetter #form input.error {
+  border: 2px solid #ff4242;
+}
+
+.Contact-NewsLetter .container .NewsLetter #form button {
   color: #f5faff;
   background: #ff52bf;
   border: none;
   padding: 15px 35px;
   border-radius: 5px;
   font-weight: 600;
+}
+
+.Contact-NewsLetter .container .NewsLetter #form button:hover {
+  background: #ff8fd8;
+}
+
+.Contact-NewsLetter .container .NewsLetter label {
+  padding-top: 5px;
+  font-size: 12px;
+  display: block;
+  color: #ff4242;
 }
 /*# sourceMappingURL=style.css.map */
